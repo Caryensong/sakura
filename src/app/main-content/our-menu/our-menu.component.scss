@@ -3,8 +3,16 @@
     background: url(./../../../../public/assets/img/menu_background.jpg) no-repeat center center;
     background-size: cover;
     padding: 120px 160px;
-  }
-  
+  >h2 {
+    font-weight: bold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    color: #9f0908;
+    margin: 0;
+    font-family: "Raleway", serif;
+  } 
+}
   .flex_menu_container, 
   .flex_menu_containerR2 {
     display: flex;
