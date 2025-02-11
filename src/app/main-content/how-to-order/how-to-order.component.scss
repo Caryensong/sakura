@@ -1,0 +1,42 @@
+.hto-container {
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    >h2 {
+        font-weight: bold;
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        color: #9f0908;
+        margin: 0;
+      }
+
+      .hto-order {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 128px;
+        margin-top: 64px;
+        .flex_ordner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+
+          img{
+            width: 128px;
+            padding-bottom: 16px;
+          }
+          span {
+            font-size: 56px;
+            font-weight: bold;
+            font-family: "Economica", sans-serif;
+          }
+      }
+
+  }
+  
