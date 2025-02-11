@@ -1,0 +1,68 @@
+/** OUR MENU **/
+.menu-container {
+    background: url(./../../../../public/assets/img/menu_background.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 120px 160px;
+  }
+  
+  .flex_menu_container, 
+  .flex_menu_containerR2 {
+    display: flex;
+    margin-top: 64px;
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      width: 380px;
+      justify-content: center;
+  
+      .menu-heading, .menu-heading2 {
+        padding-bottom: 16px;
+        font-size: 56px;
+        font-weight: bold;
+        font-family: "Economica", sans-serif;
+      }
+  
+      table {
+        font-size: 32px;
+        font-family: "Raleway", serif;
+        color: #675e54;
+        font-weight: bold;
+        padding-bottom: 8px;
+  
+        tr {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  
+    .menu-image, .menu-image2 {
+      img {
+        width: 352px;
+        height: 352px;
+      }
+    }
+  }
+  
+  .flex_menu_container {
+    justify-content: flex-start;
+  
+    .menu-image {
+      img {
+        margin-right: 80px;
+      }
+    }
+  }
+  
+  .flex_menu_containerR2 {
+    flex-direction: row-reverse;
+    justify-content: right;
+  
+    .menu-image2 {
+      img {
+        margin-left: 80px;
+      }
+    }
+  }
+  
